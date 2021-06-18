@@ -1,5 +1,6 @@
 # react-ny-times-consume
-React application to consume NY Times Most Popular Articles 
+
+React application to consume NY Times Most Popular Articles
 
 ## Setup
 
@@ -9,3 +10,11 @@ React application to consume NY Times Most Popular Articles
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000)
+
+## Test
+
+### `npm test`
+
+## Code Coverage
+
+### `npm coverage`

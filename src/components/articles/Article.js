@@ -18,11 +18,11 @@ const Article = ({ match }) => {
     name,
     company,
     avatar_url,
-    location,
+    published_date,
     bio,
     blog,
     login,
-    html_url,
+    url,
     followers,
     following,
     public_repos,
@@ -46,7 +46,7 @@ const Article = ({ match }) => {
             style={{ width: '150px' }}
           />
           <h1>{name}</h1>
-          <p>Location: {location}</p>
+          <p>Published_date: {published_date}</p>
         </div>
         <div>
           {bio && (
@@ -55,7 +55,7 @@ const Article = ({ match }) => {
               <p>{bio}</p>
             </Fragment>
           )}
-          <a href={html_url} className="btn btn-dark my-1">
+          <a href={url} className="btn btn-dark my-1">
             Visit Profile
           </a>
           <ul>
