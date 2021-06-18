@@ -24,7 +24,6 @@ const Search = () => {
     <div>
       <form onSubmit={onSubmit} className="form">
         <input
-          type="text"
           name="text"
           type="number"
           placeholder="Search Period..."
