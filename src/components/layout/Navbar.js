@@ -21,7 +21,7 @@ const Navbar = ({ icon, title }) => {
 };
 
 Navbar.defaultProps = {
-  title: 'Times Archival'
+  title: 'NY Times Most Popular Articles'
  
 };
 
