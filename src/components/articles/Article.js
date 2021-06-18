@@ -23,10 +23,6 @@ const Article = ({ match }) => {
     blog,
     login,
     url,
-    followers,
-    following,
-    public_repos,
-    public_gists,
   } = article;
 
   if (loading) return <Spinner />;
@@ -40,7 +36,7 @@ const Article = ({ match }) => {
       <div className="card grid-2">
         <div className="all-center">
           <img
-            src={avatar_url}
+            src={url}
             className="round-img"
             alt=""
             style={{ width: '150px' }}
